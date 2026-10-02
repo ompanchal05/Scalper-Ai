@@ -1,0 +1,6 @@
+{
+  "name": "Scalper AI - Automated Scalping & Live Trade Signal Intelligence",
+  "description": "Real-time AI scalping dashboard with automated trade signals, exact entry/exit/SL points, live portfolio simulation, and AI chart screenshot scanner for Call/Put trades.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
