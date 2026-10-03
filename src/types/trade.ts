@@ -21,6 +21,13 @@ export interface AIPredictionResult {
   rsiValue: number;
   rsiCondition: string;
   patternDetected: string;
+  sniperScore?: number;
+  confluenceList?: Array<{
+    id: number;
+    name: string;
+    passed: boolean;
+    detail: string;
+  }>;
   classification: {
     predictedClass: Direction;
     probability: number;
